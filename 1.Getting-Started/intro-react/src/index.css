@@ -30,6 +30,29 @@ body {
   min-height: 100vh;
 }
 
+.create_task {
+  margin-bottom: 15px;
+}
+
+.button_send {
+  margin-top: 5px;
+}
+
+
+.tasks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.task {
+  display: block;
+  grid-column: 2 / 3;
+  border: #1a1a1a 2px solid;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -46,9 +69,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
