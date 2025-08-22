@@ -7,7 +7,7 @@ function TodoInput() {
         <input id="send_task" type="text" minLength={4} maxLength={8} />
       </div>
       <div className="button_send">
-        <input type="submit" value="Send Task" />
+        <input type="submit" className="submit" value="Send Task" />
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
 function TodoItem({ text }) {
     return (
         <div className="task">
-            <h2>{text}</h2>
-            <p><input type="checkbox"/> Finish</p>
+            <h3>{text}</h3>
+            <p className="checkbox"><input type="checkbox"/> Finish</p>
         </div>
     );
 }

@@ -9,5 +9,5 @@
 ```
 
 ## Informations
-- * For 1.Getting-Started you can watch the render of the final exercise deployed via Netlify
-[→ Clic here ←](https://gleaming-frangipane-b41094.netlify.app/)
+* For 1.Getting-Started you can watch the render of the final exercise deployed via Netlify
+- [→ Clic here ←](https://gleaming-frangipane-b41094.netlify.app/)
