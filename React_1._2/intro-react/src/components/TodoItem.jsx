@@ -1,4 +1,4 @@
-function TodoItem({ text }) {
+export default function TodoItem({ text }) {
     return (
         <div className="task">
             <h3>{text}</h3>
@@ -6,5 +6,3 @@ function TodoItem({ text }) {
         </div>
     );
 }
-
-export default TodoItem;

@@ -1,15 +1,12 @@
 import TodoItem from "./TodoItem";
 import React, { useState } from "react";
 
-function TodoList() {
-    const initialTodos = ["Créer un page statique avec Vite & React.", "Ajouter les inputs et boutons.", "Mettre des checkbox à côté des tâches."];
-    const [todos, setTodos] = useState(initialTodos);
+function TodoList({ todos }) {
     return (
         <div className="tasks">
-          {todos.map((todo) => (
-             <TodoItem text={todo} />
+          {todos.map((todo, index) => (
+             <TodoItem key={index} text={todo} />
           ))}
-        <p className="footer"><i>Exercices for React track.</i></p>
         </div>
     );
 }
