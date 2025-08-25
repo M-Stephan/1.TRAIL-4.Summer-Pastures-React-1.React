@@ -9,7 +9,7 @@ export default function TodoInput({ onAddTodo }) {
     if (value.length > 0) {
       onAddTodo(value);
       inputRef.current.value = ""; // reset champ input
-    }
+    }  
   }
 
   return (
@@ -20,7 +20,7 @@ export default function TodoInput({ onAddTodo }) {
         <input ref={inputRef} id="send_task" type="text" minLength={2} maxLength={250} />
       </div>
       <div className="button_send">
-        <button onClick={clickHandler} className="submit">Send Task</button>
+        <button onClick={clickHandler} className="submit">Send Task</button>      
       </div>
     </div>
   );
